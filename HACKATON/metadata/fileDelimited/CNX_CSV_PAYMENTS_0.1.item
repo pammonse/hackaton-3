@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_lkCUsSfYEfGOhfRz90E_EA" name="CNX_CSV_PAYMENTS" dataPackage="_lkCUsifYEfGOhfRz90E_EA" Server="Localhost 127.0.0.1" FilePath="C:/talend/hacakton3/ERP/BaseDeDatosERP/olist_order_payments_dataset.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lkCUsifYEfGOhfRz90E_EA" name="default" dataManager="_lkCUsSfYEfGOhfRz90E_EA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lkCUsyfYEfGOhfRz90E_EA" id="_TqI68CfYEfGOhfRz90E_EA" label="PAGOS">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lkCUtCfYEfGOhfRz90E_EA" label="order_id" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lkCUtSfYEfGOhfRz90E_EA" label="payment_sequential" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lkCUtifYEfGOhfRz90E_EA" label="payment_type" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lkCUtyfYEfGOhfRz90E_EA" label="payment_installments" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lkCUuCfYEfGOhfRz90E_EA" label="payment_value" length="10" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

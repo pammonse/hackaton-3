@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_QPyPwCffEfGOhfRz90E_EA" name="CNX_SS_DWH" id="_HfhUACffEfGOhfRz90E_EA" label="CNX_SS_DWH" dataPackage="_QhQaQCffEfGOhfRz90E_EA" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://svc-3140000c-1d89-4856-9d34-dcc8cb6a42db-dml.aws-virginia-8.svc.singlestore.com:3306/hackaton_db?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="admin" Password="enc:system.encryption.key.v1:BY5xTzUNtueQdCG2AJ/od8I7jnPi4rZ1hiMezr76kwUk8mxhAunjpii/V4pgdfEe" ServerName="svc-3140000c-1d89-4856-9d34-dcc8cb6a42db-dml.aws-virginia-8.svc.singlestore.com" DatasourceName="" FileFieldName="" SID="hackaton_db" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_QPyPwSffEfGOhfRz90E_EA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_QQFKsCffEfGOhfRz90E_EA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_QQFKsSffEfGOhfRz90E_EA" tag="Status" value=""/>
+    <taggedValue xmi:id="_QQFKsiffEfGOhfRz90E_EA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_QQFKsyffEfGOhfRz90E_EA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_QQFKtCffEfGOhfRz90E_EA" tag="Description" value=""/>
+    <taggedValue xmi:id="_QQFKtSffEfGOhfRz90E_EA" tag="Author" value=""/>
+    <taggedValue xmi:id="_QQFKtiffEfGOhfRz90E_EA" tag="otherParameter"/>
+    <taggedValue xmi:id="_QY0P8CffEfGOhfRz90E_EA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_QY0P8SffEfGOhfRz90E_EA" tag="DB ProductVersion" value="5.7.32"/>
+    <taggedValue xmi:id="_QY0P8iffEfGOhfRz90E_EA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_QPyPwiffEfGOhfRz90E_EA" key="CONN_PARA_KEY_USERNAME" value="admin"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_QhQaQCffEfGOhfRz90E_EA" name="hackaton_db" dataManager="_QPyPwCffEfGOhfRz90E_EA"/>
+</xmi:XMI>
