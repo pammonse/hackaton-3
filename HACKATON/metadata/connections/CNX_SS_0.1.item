@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_zYLyUCfeEfGOhfRz90E_EA" name="CNX_SS" id="_Z6SboCfeEfGOhfRz90E_EA" label="CNX_SS" dataPackage="_zt3HYCfeEfGOhfRz90E_EA" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://svc-3140000c-1d89-4856-9d34-dcc8cb6a42db-dml.aws-virginia-8.svc.singlestore.com:3306/hackaton_dsa?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="admin" Password="enc:system.encryption.key.v1:RSaCub7fhckO+9/QtSPydnn0a0LrBpJb2/gGpkLr8JrTvf8nvEyb6C2Inf9Jez1z" ServerName="svc-3140000c-1d89-4856-9d34-dcc8cb6a42db-dml.aws-virginia-8.svc.singlestore.com" DatasourceName="" FileFieldName="" SID="hackaton_dsa" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+  <TalendMetadata:DatabaseConnection xmi:id="_zYLyUCfeEfGOhfRz90E_EA" name="CNX_SS" id="_Z6SboCfeEfGOhfRz90E_EA" label="CNX_SS" dataPackage="_kx5HQCfyEfGaLNzeIWnsxg" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://svc-3140000c-1d89-4856-9d34-dcc8cb6a42db-dml.aws-virginia-8.svc.singlestore.com:3306/hackaton_dsa?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="admin" Password="enc:system.encryption.key.v1:RSaCub7fhckO+9/QtSPydnn0a0LrBpJb2/gGpkLr8JrTvf8nvEyb6C2Inf9Jez1z" ServerName="svc-3140000c-1d89-4856-9d34-dcc8cb6a42db-dml.aws-virginia-8.svc.singlestore.com" DatasourceName="" FileFieldName="" SID="hackaton_dsa" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_zYMZYCfeEfGOhfRz90E_EA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_zYhwkCfeEfGOhfRz90E_EA" tag="package filter" value=""/>
     <taggedValue xmi:id="_zYla8CfeEfGOhfRz90E_EA" tag="Status" value=""/>
@@ -13,6 +13,7 @@
     <taggedValue xmi:id="_zkRGgSfeEfGOhfRz90E_EA" tag="DB ProductVersion" value="5.7.32"/>
     <taggedValue xmi:id="_zkRGgifeEfGOhfRz90E_EA" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_zYMZYSfeEfGOhfRz90E_EA" key="CONN_PARA_KEY_USERNAME" value="admin"/>
+    <parameters xmi:id="_SZ4DkCfxEfGaLNzeIWnsxg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_zt3HYCfeEfGOhfRz90E_EA" name="hackaton_dsa" dataManager="_zYLyUCfeEfGOhfRz90E_EA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_kx5HQCfyEfGaLNzeIWnsxg" name="hackaton_dsa" dataManager="_zYLyUCfeEfGOhfRz90E_EA"/>
 </xmi:XMI>

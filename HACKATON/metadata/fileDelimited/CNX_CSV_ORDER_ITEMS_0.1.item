@@ -8,8 +8,8 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BQ7BlifQEfGOhfRz90E_EA" label="_product_id" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BQ7BlyfQEfGOhfRz90E_EA" label="_seller_id" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BQ7BmCfQEfGOhfRz90E_EA" label="_shipping_limit_date" length="19" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BQ7BmSfQEfGOhfRz90E_EA" label="_price" length="-1" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BQ7BmifQEfGOhfRz90E_EA" label="_freight_value" length="-1" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BQ7BmSfQEfGOhfRz90E_EA" label="_price" length="20" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BQ7BmifQEfGOhfRz90E_EA" label="_freight_value" length="20" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
